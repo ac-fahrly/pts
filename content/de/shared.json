@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "produkt": "Produkt",
+    "preise": "Preise",
+    "fragen": "Fragen",
+    "demo": "Demo buchen",
+    "phoneLabel": "WhatsApp"
+  },
+  "footer": {
+    "tagline": "Personentransportsoftware für Disposition und Arbeitszeiterfassung. Made in Germany.",
+    "columns": [
+      {
+        "title": "Produkt",
+        "links": [
+          { "label": "Funktionen", "href": "/produkt" },
+          { "label": "Preise", "href": "/preise" },
+          { "label": "Demo buchen", "href": "/#demo" }
+        ]
+      },
+      {
+        "title": "Segmente",
+        "links": [
+          { "label": "Mietwagen", "href": "/produkt#mietwagen" },
+          { "label": "Taxi", "href": "/produkt#taxi" },
+          { "label": "Krankentransport", "href": "/produkt#krankentransport" }
+        ]
+      },
+      {
+        "title": "Rechtliches",
+        "links": [
+          { "label": "Impressum", "href": "/impressum" },
+          { "label": "Datenschutz", "href": "/impressum#datenschutz" }
+        ]
+      }
+    ],
+    "copyright": "© {year} PTS GmbH. Alle Rechte vorbehalten.",
+    "contact": "Kontakt"
+  },
+  "mobileCta": { "call": "WhatsApp", "demo": "Demo" },
+  "skipLink": "Zum Inhalt springen",
+  "languageSwitch": { "label": "Sprache", "de": "DE", "en": "EN" }
+}

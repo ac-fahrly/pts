@@ -1,0 +1,43 @@
+{
+  "dispatchBoard": {
+    "title": "PTS · Disposition — Montag, 21.09.2026",
+    "vehicle": "Fahrzeug",
+    "queue": "Warteschlange",
+    "free": "Frei",
+    "pause": "Pause",
+    "driving": "Fahrt"
+  },
+  "routeMap": {
+    "title": "PTS · Routenplanung — Auftrag #4820",
+    "total": "GESAMT",
+    "saved": "EINSPARUNG",
+    "pickup": "Abholung",
+    "stops": ["Abholung Hbf", "Marienplatz", "BMW Welt", "Flughafen MUC"]
+  },
+  "timesheet": {
+    "title": "PTS · Arbeitszeit — KW 38",
+    "date": "Datum",
+    "driver": "Fahrer",
+    "start": "Beginn",
+    "end": "Ende",
+    "pause": "Pause",
+    "net": "Netto",
+    "status": "Status",
+    "approved": "Genehmigt",
+    "open": "Offen",
+    "correction": "Korrektur",
+    "sum": "Summe KW 38 · 5 Fahrer"
+  },
+  "fahrerApp": {
+    "title": "PTS · Fahrer-App",
+    "order": "Auftrag",
+    "live": "Live",
+    "pickup": "Abholung",
+    "destination": "Ziel",
+    "assign": "Zuweisen"
+  },
+  "mini": {
+    "title": "PTS · Routenoptimierung — 5 Fahrten",
+    "optimized": "Optimierung durchgeführt"
+  }
+}

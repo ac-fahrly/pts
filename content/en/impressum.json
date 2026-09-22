@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "title": "Imprint & Privacy",
+    "description": "Imprint per § 5 TMG and privacy notice for PTS."
+  },
+  "eyebrow": "Legal",
+  "title": "Imprint",
+  "legalHeader": "Information per § 5 TMG",
+  "labels": {
+    "anbieter": "Provider",
+    "anschrift": "Address",
+    "vertreten": "Authorized representative",
+    "kontakt": "Contact",
+    "email": "Email",
+    "whatsapp": "WhatsApp"
+  },
+  "responsibleTitle": "Responsible for content per § 55(2) RStV",
+  "responsibleBody": "{ceo}, {street}, {city}, {region} {postal}, {country}.",
+  "euTitle": "EU dispute resolution",
+  "euBody": "European Commission platform for online dispute resolution: https://ec.europa.eu/consumers/odr/. Our email address is listed above.",
+  "consumerTitle": "Consumer dispute resolution",
+  "consumerBody": "We are neither willing nor obliged to participate in dispute resolution proceedings before a consumer arbitration board.",
+  "liabilityTitle": "Liability for content",
+  "liabilityBody": "As a service provider we are responsible under § 7(1) TMG for our own content on these pages according to general laws. However, under §§ 8–10 TMG we are not obliged to monitor transmitted or stored third-party information or to investigate circumstances indicating illegal activity.",
+  "copyrightTitle": "Copyright",
+  "copyrightBody": "The content and works on these pages created by the site operator are subject to German copyright law. Duplication, editing, distribution and any kind of exploitation outside the limits of copyright require the written consent of the respective author or creator.",
+  "privacy": {
+    "title": "Privacy",
+    "sections": [
+      { "h2": "1. Controller", "body": "The controller under the GDPR is {company}, {street}, {city}, {region} {postal}, {country}. You can reach us by email at {email}." },
+      { "h2": "2. Access data", "body": "When accessing this website the following data are processed for technical reasons: IP address (anonymized), date and time of the request, browser and operating system used, page requested. The legal basis is Art. 6(1)(f) GDPR (legitimate interest in secure and stable operation). Data are deleted after 30 days." },
+      { "h2": "3. Contact", "body": "When you fill out the contact form or contact us by email or WhatsApp, we process your information to handle your inquiry and any follow-up. The legal basis is Art. 6(1)(b) GDPR (pre-contractual measures)." },
+      { "h2": "4. Data processing agreement", "body": "For customers we conclude a data processing agreement per Art. 28 GDPR before contract signature. All customer data are processed exclusively in data centers in Frankfurt am Main (ISO 27001, DIN EN 50600)." },
+      { "h2": "5. Your rights", "body": "You have the right at any time to:", "list": ["Access to the personal data concerning you (Art. 15 GDPR)", "Rectification of inaccurate data (Art. 16 GDPR)", "Erasure of your data (Art. 17 GDPR)", "Restriction of processing (Art. 18 GDPR)", "Data portability (Art. 20 GDPR)", "Object to processing (Art. 21 GDPR)", "Lodge a complaint with a supervisory authority (Art. 77 GDPR)"] },
+      { "h2": "6. Cookies", "body": "This website does not set marketing or tracking cookies. Only technically necessary cookies required for operation are used. The legal basis is Art. 6(1)(f) GDPR." }
+    ],
+    "stand": "As of 22 Sep 2026"
+  }
+}

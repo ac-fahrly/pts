@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "produkt": "Product",
+    "preise": "Pricing",
+    "fragen": "FAQ",
+    "demo": "Book a demo",
+    "phoneLabel": "WhatsApp"
+  },
+  "footer": {
+    "tagline": "Software for passenger transport: dispatch and work-time tracking. Made in Germany.",
+    "columns": [
+      {
+        "title": "Product",
+        "links": [
+          { "label": "Features", "href": "/en/produkt" },
+          { "label": "Pricing", "href": "/en/preise" },
+          { "label": "Book a demo", "href": "/en/#demo" }
+        ]
+      },
+      {
+        "title": "Segments",
+        "links": [
+          { "label": "Chauffeur / Private hire", "href": "/en/produkt#mietwagen" },
+          { "label": "Taxi", "href": "/en/produkt#taxi" },
+          { "label": "Medical transport", "href": "/en/produkt#krankentransport" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "label": "Imprint", "href": "/en/impressum" },
+          { "label": "Privacy", "href": "/en/impressum#datenschutz" }
+        ]
+      }
+    ],
+    "copyright": "© {year} PTS GmbH. All rights reserved.",
+    "contact": "Contact"
+  },
+  "mobileCta": { "call": "WhatsApp", "demo": "Demo" },
+  "skipLink": "Skip to content",
+  "languageSwitch": { "label": "Language", "de": "DE", "en": "EN" }
+}

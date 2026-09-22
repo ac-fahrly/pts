@@ -1,0 +1,43 @@
+{
+  "dispatchBoard": {
+    "title": "PTS · Dispatch — Monday, 21 Sep 2026",
+    "vehicle": "Vehicle",
+    "queue": "Queue",
+    "free": "Free",
+    "pause": "Break",
+    "driving": "In trip"
+  },
+  "routeMap": {
+    "title": "PTS · Route planning — Order #4820",
+    "total": "TOTAL",
+    "saved": "SAVED",
+    "pickup": "Pickup",
+    "stops": ["Pickup Hbf", "Marienplatz", "BMW World", "MUC Airport"]
+  },
+  "timesheet": {
+    "title": "PTS · Work time — W38",
+    "date": "Date",
+    "driver": "Driver",
+    "start": "Start",
+    "end": "End",
+    "pause": "Break",
+    "net": "Net",
+    "status": "Status",
+    "approved": "Approved",
+    "open": "Open",
+    "correction": "Correction",
+    "sum": "W38 total · 5 drivers"
+  },
+  "fahrerApp": {
+    "title": "PTS · Driver app",
+    "order": "Order",
+    "live": "Live",
+    "pickup": "Pickup",
+    "destination": "Destination",
+    "assign": "Assign"
+  },
+  "mini": {
+    "title": "PTS · Route optimization — 5 trips",
+    "optimized": "Optimization applied"
+  }
+}

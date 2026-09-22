@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Product — Dispatch, route planning and work-time",
+    "description": "PTS in detail: dispatch board, multi-stop route optimization, BAG-compliant work-time, offline driver app. For chauffeur, taxi and medical transport fleets."
+  },
+  "hero": {
+    "eyebrow": "Product",
+    "h1": "Two jobs. One system. No more Excel.",
+    "sub": "PTS does two things very well: plan routes & dispatch, and track work time to German labor law. Everything else we deliberately left out."
+  },
+  "sections": {
+    "disposition": {
+      "eyebrow": "Dispatch",
+      "h2": "Trips, vehicles and drivers — on one board.",
+      "body": "The PTS board shows every shift on a timeline. Every trip is a colored block, every vehicle a row. Conflicts get flagged before you assign — double-bookings are impossible.",
+      "cards": [
+        { "title": "Drag & drop", "body": "Assign trips by dragging. The driver receives push notification and route instantly." },
+        { "title": "Recurring trips", "body": "School runs, dialysis shuttles, business pickup series: set up once, run for months." },
+        { "title": "Conflict detection", "body": "Overlapping times, missing breaks, expired licenses — PTS warns immediately." }
+      ]
+    },
+    "routen": {
+      "id": "routen",
+      "eyebrow": "Route planning",
+      "h2": "Multi-stop routes. Live traffic. No manual re-planning.",
+      "body": "PTS optimizes routes for single trips and whole shifts. On delay the system re-plans automatically — the driver gets the new route, the passenger gets an ETA update.",
+      "list": [
+        "Multi-stop with time windows and priorities",
+        "Live traffic HERE + OSM, ETA to the minute",
+        "Automatic re-plan on jam or cancellation",
+        "Kilometer and time report per order"
+      ],
+      "mock": "route",
+      "reverse": true
+    },
+    "fahrerApp": {
+      "eyebrow": "Driver app",
+      "h2": "Orders. Navigation. Work-time. One screen.",
+      "body": "The PTS driver app shows the next order with one-tap navigation, customer data and work-time tracking. All offline-ready — in tunnels, parking garages, rural areas.",
+      "list": [
+        "iOS and Android, native, 2 MB update size",
+        "One-tap status: Arrived · Passenger onboard · Destination reached",
+        "Payment via SumUp, Zettle or barcode scan",
+        "Languages: DE, EN, TR, PL, AR"
+      ]
+    },
+    "arbeitszeit": {
+      "id": "arbeitszeit",
+      "eyebrow": "Work-time tracking",
+      "h2": "BAG ruling 2022 met. Without extra software.",
+      "body": "On 13 Sep 2022 the German Federal Labor Court made complete work-time recording mandatory for all employees. PTS meets that requirement — for your drivers, your dispatchers, your workshop staff.",
+      "list": [
+        "Per-driver, per-day recording with start, end and breaks",
+        "Automatic break detection per Arbeitszeitgesetz (ArbZG)",
+        "Approval workflow: driver confirms, dispatcher signs off, versioned",
+        "Tamper-evident storage with full change log",
+        "Export as PDF or straight to DATEV payroll"
+      ],
+      "mock": "timesheet"
+    }
+  },
+  "onboarding": {
+    "eyebrow": "Onboarding",
+    "h2": "Productive in 5 business days. No IT project.",
+    "body": "You don't need a project lead, consultants or a six-month rollout. PTS is simple enough that your team on day five works as if they'd never used anything else.",
+    "totalTime": "P5D",
+    "steps": [
+      { "day": "Day 1", "name": "Kickoff", "text": "60-minute call: master data check, goals, points of contact. You get PTS tenant access and a data migration checklist." },
+      { "day": "Day 2", "name": "Import", "text": "We migrate drivers, vehicles, customers and current trips from Excel, CSV or your previous software. You review in sandbox mode." },
+      { "day": "Day 3", "name": "Training", "text": "Two 90-minute sessions: dispatch for back office, driver app for drivers. Recording and handout remain available." },
+      { "day": "Day 4", "name": "Test trips", "text": "3–5 real trips run through PTS with us on chat, fixing configuration on the fly." },
+      { "day": "Day 5", "name": "Go-live", "text": "Productive use. Support on standby, response time under 4 minutes. Excel and paper go to the basement." }
+    ]
+  },
+  "segments": {
+    "eyebrow": "For your segment",
+    "h2": "One product. Three segments. Each considered in detail.",
+    "cards": [
+      {
+        "id": "mietwagen",
+        "title": "Chauffeur & private hire",
+        "body": "For limousine services, business chauffeurs and hotel transfers. Return-to-base proofs per § 49 PBefG automatic, corporate clients on framework agreements, invoices with cost-center split.",
+        "bullets": ["Trip log per § 49 PBefG", "Corporate booking portal", "In-car SumUp payment"]
+      },
+      {
+        "id": "taxi",
+        "title": "Taxi",
+        "body": "For licensed taxi operators. Integrations with taxameter, TX-App and ISI-Fahrbetrieb. VAT split correctly, cash reconciliation clean, records one click away.",
+        "bullets": ["Taxameter integration (Kienzle, HALE, Semitron)", "TX-App integration", "Revenue report for tax authority"]
+      },
+      {
+        "id": "krankentransport",
+        "title": "Medical & school transport",
+        "body": "For qualified medical transport and regular school routes. Health-fund billing, recurring trips, passenger master data with GDPR-compliant encryption.",
+        "bullets": ["Health-fund billing (Muster 4 & 8)", "Recurring trips with calendar", "Co-pay and own share separated"]
+      }
+    ]
+  },
+  "integrations": {
+    "eyebrow": "Integrations",
+    "h2": "Works with the systems you already use.",
+    "items": ["DATEV", "Lexoffice", "sevDesk", "HRworks", "SAP Concur", "TX-App", "Kienzle", "HALE", "SumUp", "Zettle", "HERE Maps", "REST API"]
+  },
+  "cta": {
+    "eyebrow": "Next step",
+    "h2": "Show us your fleet. We'll show you PTS.",
+    "body": "30 minutes, no commitment. Afterwards you know whether PTS fits.",
+    "primary": "Book a demo",
+    "secondary": "WhatsApp"
+  }
+}

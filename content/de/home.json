@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "title": "PTS — Personentransportsoftware für Disposition & Arbeitszeit",
+    "description": "PTS ist die Software für Personenbeförderung: Routen planen, Fahrten disponieren, Arbeitszeit gesetzeskonform erfassen. Ab 39 € pro Fahrzeug.",
+    "keywords": [
+      "Personentransportsoftware",
+      "Dispositionssoftware",
+      "Personenbeförderung",
+      "Mietwagen Software",
+      "Taxi Software",
+      "Krankentransport Software",
+      "Arbeitszeiterfassung Fahrer",
+      "Fahrtenbuch digital",
+      "PBefG"
+    ]
+  },
+  "hero": {
+    "eyebrow": "Personentransportsoftware",
+    "h1": "Disponieren Sie Ihre Flotte in Sekunden — nicht in Stunden.",
+    "sub": "PTS ist die Software für Personenbeförderung. Routen planen, Fahrten disponieren, Arbeitszeit gesetzeskonform erfassen — in einem System, für Mietwagen, Taxi und Krankentransport.",
+    "ctas": { "primary": "Demo buchen", "secondary": "Auf WhatsApp schreiben" },
+    "meta": "{days} Tage kostenlos · monatlich kündbar · Einführung in unter {onboard} Werktagen"
+  },
+  "trustedBy": {
+    "label": "Vertrauen von Fuhrparks in Deutschland",
+    "companies": ["Bayern Chauffeur", "City Taxi München", "Rhein-Main Transfer", "Alpen Krankenfahrten", "Nord Limousinen", "Berlin Mietwagen 24"]
+  },
+  "features": [
+    {
+      "id": "disposition",
+      "eyebrow": "Disposition",
+      "h2": "Aufträge zuweisen mit einem Klick, nicht mit fünf Anrufen.",
+      "body": "PTS zeigt alle Fahrzeuge, Fahrer und Aufträge auf einer gemeinsamen Zeitachse und markiert Konflikte, bevor Sie zuweisen. Sie sehen sofort, wer frei ist, wer in der Pause ist und wer bereits fährt.",
+      "list": [
+        "Drag-and-drop-Zuweisung mit Konfliktprüfung in Echtzeit",
+        "Wiederkehrende Fahrten (Schülerverkehr, Dialyse, Business-Shuttle) einmal anlegen, monatelang laufen lassen",
+        "Fahrer bekommen Aufträge automatisch auf ihre App — kein Zettel, kein Anruf",
+        "Änderungen und Stornos gehen in Sekunden an Fahrer und Kunden"
+      ],
+      "mock": "dispatchMini"
+    },
+    {
+      "id": "routen",
+      "eyebrow": "Routenplanung",
+      "h2": "Weniger Leerkilometer. Mehr Umsatz pro Schicht.",
+      "body": "PTS optimiert Routen mit Live-Verkehrsdaten und senkt Leerkilometer um durchschnittlich 18 % nach drei Monaten — bei planbarer Ankunftszeit auf die Minute.",
+      "list": [
+        "Multi-Stop-Optimierung mit Zeitfenstern pro Kunde",
+        "Live-Verkehr von HERE und OSM, Ankunftszeit in Echtzeit",
+        "Automatische Neuplanung bei Verspätung — Fahrer und Fahrgast werden informiert",
+        "Kilometerreport pro Auftrag, Fahrer, Fahrzeug — direkt in die Abrechnung"
+      ],
+      "mock": "route",
+      "reverse": true
+    },
+    {
+      "id": "arbeitszeit",
+      "eyebrow": "Arbeitszeiterfassung",
+      "h2": "BAG-konforme Nachweise. Ohne Excel. Ohne Zettel.",
+      "body": "PTS erfüllt die Arbeitszeiterfassungspflicht nach dem BAG-Urteil vom 13.09.2022 — fahrer- und tagesgenau, mit revisionssicherem Änderungsprotokoll und direktem Export nach DATEV.",
+      "list": [
+        "Beginn und Ende per Ein-Klick in der Fahrer-App, auch offline",
+        "Automatische Pausenerkennung nach ArbZG",
+        "Freigabeprozess für Disponent und Fahrer, versioniert und auditierbar",
+        "Export nach DATEV Lohn und Gehalt, Lexoffice, sevDesk"
+      ],
+      "mock": "timesheet"
+    }
+  ],
+  "stats": [
+    { "value": "−18 %", "label": "Leerkilometer im Ø nach 3 Monaten" },
+    { "value": "4,7 h", "label": "Zeit pro Woche, die die Disposition spart" },
+    { "value": "<5", "label": "Werktage bis zur produktiven Nutzung" },
+    { "value": "100 %", "label": "DSGVO-konform · Hosting Frankfurt" }
+  ],
+  "whyGrid": {
+    "eyebrow": "Warum PTS",
+    "h2": "Gebaut für den Alltag deutscher Fuhrparks.",
+    "cards": [
+      { "iconKey": "check", "title": "PBefG-tauglich", "body": "Fahrtenbuch, Rückkehrpflicht-Nachweise und Kilometerstände — alles automatisch, alles auf Knopfdruck an das Ordnungsamt." },
+      { "iconKey": "db", "title": "DATEV & Lexoffice ready", "body": "Löhne, Rechnungen, Abschlagszahlungen — jeder Monat schließt sich mit einem Klick statt mit 30 Minuten CSV-Fummelei." },
+      { "iconKey": "shield", "title": "Hosting in Deutschland", "body": "Rechenzentren in Frankfurt, ISO 27001-zertifiziert. AV-Vertrag nach DSGVO Art. 28 liegt unterschriftsreif bereit." },
+      { "iconKey": "chart", "title": "Live-Support DE", "body": "Deutschsprachiger Support Mo–Sa 07–20 Uhr per Telefon, Chat und E-Mail. Antwortzeit unter 4 Minuten im Ø." },
+      { "iconKey": "clock", "title": "Offline-fähige Fahrer-App", "body": "Aufträge, Navigation und Zeiterfassung funktionieren ohne Netz. Sobald wieder Empfang da ist, wird synchronisiert." },
+      { "iconKey": "api", "title": "Offenes REST-API", "body": "Für Ihre Firmenkunden, Ihr CRM und Ihr Buchungsformular. Webhook-Events für jede Statusänderung, dokumentiert und stabil." }
+    ]
+  },
+  "comparison": {
+    "eyebrow": "Vergleich",
+    "h2": "PTS gegen Excel, Papier und Whiteboard.",
+    "body": "Die meisten Fuhrparks in Deutschland disponieren heute noch mit Excel, Zetteln oder Whiteboard. Hier ist, was sich mit PTS ändert.",
+    "header": { "task": "Aufgabe", "old": "Excel / Papier / Whiteboard", "pts": "PTS" },
+    "rows": [
+      { "task": "Fahrt zuweisen", "old": "Anruf, SMS oder Aushang · 3 – 5 min pro Fahrt", "pts": "Drag & Drop · Push-Nachricht · 10 s" },
+      { "task": "Konflikt erkennen", "old": "Wird bei der Disposition oft übersehen", "pts": "Warnung erscheint sofort beim Zuweisen" },
+      { "task": "Route optimieren", "old": "Erfahrung des Disponenten · nicht messbar", "pts": "Live-Verkehr & Multi-Stop · −18 % Leerkilometer" },
+      { "task": "Arbeitszeit nachweisen", "old": "Excel-Sheet · nicht BAG-konform · nicht revisionssicher", "pts": "Ein-Klick Beginn / Ende · versionsverfolgt · BAG-tauglich" },
+      { "task": "Monatsabschluss", "old": "Manuelle Rechnungen · CSV-Fummelei · 4 – 6 h", "pts": "Direkt an DATEV / Lexoffice · unter 10 min" },
+      { "task": "DSGVO / Datenhoheit", "old": "Excel auf Laptops · E-Mails · unklar", "pts": "ISO-27001-Hosting Frankfurt · AV-Vertrag inklusive" }
+    ]
+  },
+  "testimonial": {
+    "quote": "Die Arbeitszeiterfassung war jeden Monat drei Tage Excel-Fummelei. Mit PTS macht mein Team das in 20 Minuten — Freigabe und DATEV-Export inklusive. Wir sparen sechs Stunden pro Woche allein hier.",
+    "author": { "initials": "YA", "name": "Yassir Aman", "role": "Geschäftsführer, 9PM GmbH" }
+  },
+  "faq": {
+    "eyebrow": "Fragen & Antworten",
+    "h2": "Die häufigsten Fragen vor dem Wechsel.",
+    "items": [
+      { "q": "Was kostet PTS pro Fahrzeug im Monat?", "a": "PTS startet bei 39 € pro Fahrzeug pro Monat im Starter-Tarif. Der Pro-Tarif kostet 69 € pro Fahrzeug pro Monat und enthält Routenoptimierung und DATEV-Export. Für Flotten ab 25 Fahrzeugen gibt es individuelle Enterprise-Konditionen." },
+      { "q": "Wie lange dauert die Einführung?", "a": "Die Einführung dauert typischerweise unter 5 Werktage. Wir migrieren Ihre Stammdaten (Fahrer, Fahrzeuge, Kunden) und schulen Ihr Team in zwei Sessions à 90 Minuten. Am fünften Tag sind Sie produktiv." },
+      { "q": "Ist PTS DSGVO-konform? Gibt es einen AV-Vertrag?", "a": "Ja. PTS wird ausschließlich in deutschen Rechenzentren (Frankfurt, ISO 27001) betrieben. Ein Vertrag zur Auftragsverarbeitung nach DSGVO Art. 28 liegt unterschriftsreif vor und wird mit jedem Vertrag ausgehändigt." },
+      { "q": "Erfüllt die Arbeitszeiterfassung das BAG-Urteil vom 13.09.2022?", "a": "Ja. PTS erfasst Beginn, Ende, Pausen und Dauer der Arbeitszeit fahrer- und tagesgenau. Alle Änderungen werden versioniert und revisionssicher protokolliert. Die Nachweise sind BAG-tauglich und lassen sich als PDF exportieren." },
+      { "q": "Welche Schnittstellen gibt es?", "a": "PTS exportiert nach DATEV Lohn und Gehalt, Lexoffice, sevDesk und als CSV. Für Taxi-Betriebe gibt es Schnittstellen zu Taxameter, TX-App und ISI-Fahrbetrieb. Kundenseitig sind SAP-Concur, HRworks und ein offenes REST-API angebunden." },
+      { "q": "Läuft die Fahrer-App auch offline?", "a": "Ja. Die Fahrer-App speichert Aufträge und Zeiterfassung offline und synchronisiert automatisch, sobald wieder Netz verfügbar ist. Sie funktioniert auf iOS und Android ab den letzten drei Major-Versionen." },
+      { "q": "Wie lange ist die Vertragslaufzeit?", "a": "Monatlich kündbar. Sie zahlen pro Fahrzeug pro Monat, ohne Setup-Gebühr und ohne Mindestlaufzeit. Wer sich für ein Jahresabo entscheidet, erhält 15 % Rabatt." },
+      { "q": "Gibt es einen kostenlosen Test?", "a": "Ja. 14 Tage kostenlos, mit allen Funktionen, ohne Zahlungsangaben. Nach dem Test entscheiden Sie, ob Sie einen Vertrag abschließen — oder Sie kündigen mit einem Klick." }
+    ]
+  },
+  "demo": {
+    "eyebrow": "Demo buchen",
+    "h2": "30 Minuten. Ihre Flotte. Live in PTS.",
+    "body": "Wir zeigen Ihnen PTS mit Ihren echten Abläufen — nicht mit einer generischen Demo. Nach dem Gespräch wissen Sie, ob PTS zu Ihnen passt. Ohne Verkaufsdruck."
+  },
+  "form": {
+    "labels": {
+      "name": "Name",
+      "firma": "Firma",
+      "email": "E-Mail",
+      "telefon": "Telefon",
+      "fahrzeuge": "Anzahl Fahrzeuge",
+      "nachricht": "Kurz zu Ihrem Bedarf (optional)"
+    },
+    "placeholders": {
+      "name": "Vor- und Nachname",
+      "firma": "Firmenname",
+      "email": "name@firma.de",
+      "telefon": "+49 …",
+      "nachricht": "Segment, aktuelle Software, gewünschter Starttermin …"
+    },
+    "select": "Bitte auswählen",
+    "vehicleRanges": ["1 – 5", "6 – 20", "21 – 50", "Mehr als 50"],
+    "submit": "Demo anfragen",
+    "subject": "PTS Demo-Anfrage",
+    "disclaimer": "Mit dem Absenden akzeptieren Sie unsere Datenschutzbestimmungen. Wir melden uns innerhalb eines Werktags."
+  }
+}

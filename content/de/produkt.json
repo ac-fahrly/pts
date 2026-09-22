@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Produkt — Disposition, Routenplanung und Arbeitszeit",
+    "description": "PTS im Detail: Dispositionsboard, Multi-Stop-Routenoptimierung, BAG-konforme Zeiterfassung, Fahrer-App offline. Für Mietwagen, Taxi und Krankentransport."
+  },
+  "hero": {
+    "eyebrow": "Produkt",
+    "h1": "Zwei Aufgaben. Ein System. Kein Excel mehr.",
+    "sub": "PTS macht zwei Dinge sehr gut: Routen planen und disponieren, und Arbeitszeit gesetzeskonform erfassen. Alles andere haben wir bewusst weggelassen."
+  },
+  "sections": {
+    "disposition": {
+      "eyebrow": "Disposition",
+      "h2": "Aufträge, Fahrzeuge und Fahrer — auf einem Board.",
+      "body": "Das PTS-Board zeigt jede Schicht auf einer Zeitachse. Jede Fahrt ist ein farbiges Blockelement, jedes Fahrzeug eine Zeile. Konflikte werden markiert, bevor Sie zuweisen — Doppelbuchungen sind ausgeschlossen.",
+      "cards": [
+        { "title": "Drag & Drop", "body": "Aufträge per Ziehen zuweisen. Der Fahrer bekommt Push-Nachricht und Route sofort." },
+        { "title": "Wiederkehrende Fahrten", "body": "Schülerverkehr, Dialyse-Shuttle, Business-Abhol-Serien: einmal einrichten, monatelang laufen." },
+        { "title": "Konflikterkennung", "body": "Überlappende Zeiten, fehlende Pausen, abgelaufene Führerscheine — PTS warnt sofort." }
+      ]
+    },
+    "routen": {
+      "id": "routen",
+      "eyebrow": "Routenplanung",
+      "h2": "Multi-Stop-Routen. Live-Verkehr. Ohne manuelles Nachbessern.",
+      "body": "PTS optimiert Routen für einzelne Fahrten und für ganze Schichten. Bei Verspätung plant das System automatisch neu — der Fahrer bekommt die aktualisierte Route, der Fahrgast eine ETA-Aktualisierung.",
+      "list": [
+        "Multi-Stop mit Zeitfenstern und Prioritäten",
+        "Live-Verkehr HERE + OSM, ETA auf die Minute",
+        "Automatische Umplanung bei Stau oder Ausfall",
+        "Kilometer- und Zeitreport pro Auftrag"
+      ],
+      "mock": "route",
+      "reverse": true
+    },
+    "fahrerApp": {
+      "eyebrow": "Fahrer-App",
+      "h2": "Aufträge. Navigation. Zeiterfassung. Ein Screen.",
+      "body": "Die PTS-Fahrer-App zeigt den nächsten Auftrag mit Ein-Klick-Navigation, Kundendaten und Zeiterfassung. Alles offline-fähig — im Tunnel, im Parkhaus, auf dem Land.",
+      "list": [
+        "iOS und Android, native, 2 MB Update-Größe",
+        "Ein-Klick-Statusmeldung: Angekommen · Fahrgast an Bord · Ziel erreicht",
+        "Zahlungsabwicklung per SumUp, Zettle oder Barcode-Scan",
+        "Sprachen: DE, EN, TR, PL, AR"
+      ]
+    },
+    "arbeitszeit": {
+      "id": "arbeitszeit",
+      "eyebrow": "Arbeitszeiterfassung",
+      "h2": "BAG-Urteil 2022 erfüllt. Ohne extra Software.",
+      "body": "Das Bundesarbeitsgericht hat am 13.09.2022 die lückenlose Zeiterfassung für alle Arbeitnehmer zur Pflicht gemacht. PTS erfüllt diese Pflicht — für Ihre Fahrer, für Ihre Disposition, für Ihre Werkstattmitarbeiter.",
+      "list": [
+        "Erfassung fahrer- und tagesgenau, mit Beginn, Ende und Pausen",
+        "Automatische Pausenerkennung nach Arbeitszeitgesetz (ArbZG)",
+        "Freigabe-Workflow: Fahrer bestätigt, Disponent gibt frei, versioniert",
+        "Revisionssichere Speicherung mit vollständigem Änderungsprotokoll",
+        "Export als PDF oder direkt an DATEV Lohn und Gehalt"
+      ],
+      "mock": "timesheet"
+    }
+  },
+  "onboarding": {
+    "eyebrow": "Einführung",
+    "h2": "In 5 Werktagen produktiv. Ohne IT-Projekt.",
+    "body": "Sie brauchen keinen Projektleiter, keine Consultants und kein sechsmonatiges Rollout. PTS ist so einfach, dass Ihr Team am fünften Tag arbeitet, als hätte es nie etwas anderes benutzt.",
+    "totalTime": "P5D",
+    "steps": [
+      { "day": "Tag 1", "name": "Kickoff", "text": "60-Minuten-Call: Stammdaten-Abgleich, Ziele, Ansprechpartner. Sie erhalten Zugang zum PTS-Tenant und eine Checkliste für die Datenmigration." },
+      { "day": "Tag 2", "name": "Import", "text": "Wir migrieren Fahrer, Fahrzeuge, Kunden und aktuelle Fahrten aus Excel, CSV oder Ihrer bisherigen Software. Sie prüfen im Sandbox-Modus." },
+      { "day": "Tag 3", "name": "Schulung", "text": "Zwei Sessions à 90 Minuten: Disposition für das Backoffice, Fahrer-App für die Fahrer. Aufzeichnung und Handout bleiben verfügbar." },
+      { "day": "Tag 4", "name": "Testfahrten", "text": "3–5 echte Fahrten laufen begleitet durch PTS. Wir sind live per Chat dabei und korrigieren Konfigurationen sofort." },
+      { "day": "Tag 5", "name": "Go-Live", "text": "Produktive Nutzung. Support Standby, Antwortzeit unter 4 Minuten. Excel und Papier können in den Keller." }
+    ]
+  },
+  "segments": {
+    "eyebrow": "Für Ihr Segment",
+    "h2": "Ein Produkt. Drei Segmente. Jedes bis ins Detail durchdacht.",
+    "cards": [
+      {
+        "id": "mietwagen",
+        "title": "Mietwagen & Chauffeur",
+        "body": "Für Limousinen-Services, Business-Chauffeure und Hotelfahrten. Rückkehrpflicht-Nachweise nach § 49 PBefG automatisch, Firmenkunden mit Konzernvereinbarung, Rechnungen mit Kostenstellen-Split.",
+        "bullets": ["Fahrtenbuch nach § 49 PBefG", "Firmenkunden-Buchungsportal", "SumUp-Zahlung im Fahrzeug"]
+      },
+      {
+        "id": "taxi",
+        "title": "Taxi",
+        "body": "Für lizenzierte Taxi-Betriebe. Schnittstellen zu Taxameter, TX-App und ISI-Fahrbetrieb. Umsatzsteuer korrekt getrennt, Kassenabrechnung ordentlich, Nachweise auf einen Klick.",
+        "bullets": ["Schnittstelle Taxameter (Kienzle, HALE, Semitron)", "TX-App-Integration", "Umsatz-Report für Finanzamt"]
+      },
+      {
+        "id": "krankentransport",
+        "title": "Krankentransport & Schülerverkehr",
+        "body": "Für qualifizierten Krankentransport und regelmäßige Schülerbeförderung. Kassenabrechnung, wiederkehrende Fahrten, Fahrgast-Stammdaten mit DSGVO-konformer Verschlüsselung.",
+        "bullets": ["Kassenabrechnung Muster 4 & 8", "Wiederkehrende Fahrten mit Kalender", "Zuzahlung und Eigenanteil separat"]
+      }
+    ]
+  },
+  "integrations": {
+    "eyebrow": "Integrationen",
+    "h2": "Läuft mit den Systemen, die Sie schon nutzen.",
+    "items": ["DATEV", "Lexoffice", "sevDesk", "HRworks", "SAP Concur", "TX-App", "Kienzle", "HALE", "SumUp", "Zettle", "HERE Maps", "REST API"]
+  },
+  "cta": {
+    "eyebrow": "Nächster Schritt",
+    "h2": "Zeigen Sie uns Ihre Flotte. Wir zeigen Ihnen PTS.",
+    "body": "30 Minuten, ohne Verpflichtung. Danach wissen Sie, ob PTS passt.",
+    "primary": "Demo buchen",
+    "secondary": "WhatsApp"
+  }
+}

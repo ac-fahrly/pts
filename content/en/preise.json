@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "title": "Pricing — from 39 € per vehicle per month",
+    "description": "PTS pricing per vehicle per month: Starter from 39 €, Pro 69 €, Enterprise on request. Month-to-month, 14-day free trial, no setup fee."
+  },
+  "hero": {
+    "eyebrow": "Pricing",
+    "h1": "One price per vehicle. Everything included.",
+    "sub": "No setup, no user fee, no add-on modules. 14-day free trial, then month-to-month."
+  },
+  "tiers": [
+    {
+      "id": "starter",
+      "name": "Starter",
+      "desc": "For fleets up to 5 vehicles switching from Excel.",
+      "price": "39 €",
+      "per": "/ vehicle / month",
+      "bullets": [
+        "Dispatch & board",
+        "Driver app (iOS, Android)",
+        "Work-time tracking, BAG-compliant",
+        "CSV export for DATEV and Lexoffice",
+        "Email support DE/EN, Mon–Fri 09–18"
+      ],
+      "ctaLabel": "Try it",
+      "ctaHref": "/en/#demo"
+    },
+    {
+      "id": "pro",
+      "name": "Pro",
+      "desc": "For growing fleets of 6 – 25 vehicles.",
+      "price": "69 €",
+      "per": "/ vehicle / month",
+      "bullets": [
+        "Everything in Starter",
+        "Multi-stop route optimization + live traffic",
+        "Direct integrations: DATEV, Lexoffice, HRworks",
+        "Corporate booking portal",
+        "Phone support DE/EN, Mon–Sat 07–20"
+      ],
+      "badge": "Popular",
+      "featured": true,
+      "ctaLabel": "Book a demo",
+      "ctaHref": "/en/#demo"
+    },
+    {
+      "id": "enterprise",
+      "name": "Enterprise",
+      "desc": "25+ vehicles. Individually negotiated.",
+      "price": "On request",
+      "per": "",
+      "bullets": [
+        "Everything in Pro",
+        "SLA, dedicated contact",
+        "SSO (SAML, OIDC)",
+        "Custom integrations & REST API",
+        "Onboarding project incl. data migration"
+      ],
+      "ctaLabel": "Book a demo",
+      "ctaHref": "/en/#demo"
+    }
+  ],
+  "note": "All prices per vehicle per month, excl. VAT. 15 % discount on annual commitment.",
+  "compare": {
+    "eyebrow": "Details",
+    "h2": "Compare the tiers.",
+    "header": { "funktion": "Feature", "starter": "Starter", "pro": "Pro", "enterprise": "Enterprise" },
+    "rows": [
+      { "label": "Dispatch board",                    "starter": true,      "pro": true,        "enterprise": true },
+      { "label": "Driver app (iOS, Android)",         "starter": true,      "pro": true,        "enterprise": true },
+      { "label": "Work-time tracking, BAG-compliant", "starter": true,      "pro": true,        "enterprise": true },
+      { "label": "Multi-stop route optimization",     "starter": false,     "pro": true,        "enterprise": true },
+      { "label": "Live traffic (HERE)",               "starter": false,     "pro": true,        "enterprise": true },
+      { "label": "DATEV direct integration",          "starter": "CSV",     "pro": true,        "enterprise": true },
+      { "label": "Corporate booking portal",          "starter": false,     "pro": true,        "enterprise": true },
+      { "label": "REST API + webhooks",               "starter": false,     "pro": "read-only", "enterprise": true },
+      { "label": "Single sign-on (SAML, OIDC)",       "starter": false,     "pro": false,       "enterprise": true },
+      { "label": "Support channel",                   "starter": "Email",   "pro": "Phone",     "enterprise": "Dedicated" },
+      { "label": "Response time (SLA)",               "starter": "24 h",    "pro": "4 h",       "enterprise": "1 h" }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Pricing questions",
+    "h2": "Clarity before contract.",
+    "items": [
+      { "q": "Do I pay per vehicle or per driver?", "a": "Per vehicle. A vehicle can be used by any number of drivers — the number of users is not limited." },
+      { "q": "Is there a setup fee?", "a": "No. Onboarding including data migration and training is included in Starter and Pro. For Enterprise customers with 25+ vehicles we scope an onboarding project individually." },
+      { "q": "What is the contract term?", "a": "Month-to-month. Annual commitment gets a 15 % discount and you can switch back to monthly at any time." },
+      { "q": "What happens after the 14-day trial?", "a": "Nothing automatically. You'll receive a quote by email. If you don't sign, your data expires and gets deleted after 30 days." }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Ready?",
+    "h2": "Let's talk about your fleet for {mins} minutes.",
+    "body": "We recommend the right tier only after the conversation — not before.",
+    "primary": "Book a demo",
+    "secondary": "WhatsApp"
+  }
+}

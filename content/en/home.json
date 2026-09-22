@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "title": "PTS — Software for passenger transport: dispatch & work-time",
+    "description": "PTS is the software for passenger transport: plan routes, dispatch trips, track work time to German labor law. From 39 € per vehicle.",
+    "keywords": [
+      "passenger transport software",
+      "dispatch software",
+      "chauffeur software",
+      "taxi software",
+      "medical transport software",
+      "driver work-time tracking",
+      "digital trip log",
+      "PBefG"
+    ]
+  },
+  "hero": {
+    "eyebrow": "Passenger transport software",
+    "h1": "Dispatch your fleet in seconds — not hours.",
+    "sub": "PTS is the software for passenger transport. Plan routes, dispatch trips, track work time to German labor law — in one system, for chauffeur, taxi and medical transport fleets.",
+    "ctas": { "primary": "Book a demo", "secondary": "Message on WhatsApp" },
+    "meta": "{days}-day free trial · month-to-month · onboarding in under {onboard} business days"
+  },
+  "trustedBy": {
+    "label": "Trusted by fleets across Germany",
+    "companies": ["Bayern Chauffeur", "City Taxi München", "Rhein-Main Transfer", "Alpen Krankenfahrten", "Nord Limousinen", "Berlin Mietwagen 24"]
+  },
+  "features": [
+    {
+      "id": "disposition",
+      "eyebrow": "Dispatch",
+      "h2": "Assign trips with one click, not five phone calls.",
+      "body": "PTS shows every vehicle, driver and trip on a shared timeline and flags conflicts before you assign. See at a glance who is free, who is on break and who is already driving.",
+      "list": [
+        "Drag-and-drop assignment with real-time conflict checks",
+        "Recurring trips (school runs, dialysis, business shuttles) — set up once, run for months",
+        "Drivers receive trips automatically on the app — no paper, no phone call",
+        "Changes and cancellations reach drivers and clients in seconds"
+      ],
+      "mock": "dispatchMini"
+    },
+    {
+      "id": "routen",
+      "eyebrow": "Route planning",
+      "h2": "Fewer empty miles. More revenue per shift.",
+      "body": "PTS optimizes routes with live traffic and cuts empty miles by an average of 18 % after three months — with arrival times accurate to the minute.",
+      "list": [
+        "Multi-stop optimization with client time windows",
+        "Live traffic from HERE and OSM, real-time ETA",
+        "Automatic re-planning on delay — driver and passenger notified",
+        "Kilometer report per order, driver and vehicle — straight to billing"
+      ],
+      "mock": "route",
+      "reverse": true
+    },
+    {
+      "id": "arbeitszeit",
+      "eyebrow": "Work-time tracking",
+      "h2": "BAG-compliant records. No Excel. No paper.",
+      "body": "PTS meets the German work-time tracking requirement per the BAG ruling of 13 Sep 2022 — per driver, per day, with a tamper-evident change log and direct export to DATEV.",
+      "list": [
+        "One-tap start & stop in the driver app, works offline",
+        "Automatic break detection per ArbZG",
+        "Approval workflow for dispatcher and driver, versioned and auditable",
+        "Export to DATEV, Lexoffice and sevDesk"
+      ],
+      "mock": "timesheet"
+    }
+  ],
+  "stats": [
+    { "value": "−18 %", "label": "Empty miles on average after 3 months" },
+    { "value": "4.7 h", "label": "Time saved per week in dispatch" },
+    { "value": "<5", "label": "Business days to production use" },
+    { "value": "100 %", "label": "GDPR-compliant · Hosted in Frankfurt" }
+  ],
+  "whyGrid": {
+    "eyebrow": "Why PTS",
+    "h2": "Built for the everyday reality of German fleets.",
+    "cards": [
+      { "iconKey": "check", "title": "PBefG-ready", "body": "Trip log, return-to-base proofs and odometer records — automatic, exported to the licensing authority in one click." },
+      { "iconKey": "db", "title": "DATEV & Lexoffice ready", "body": "Payroll, invoices, deposits — every month closes with one click instead of 30 minutes of CSV wrangling." },
+      { "iconKey": "shield", "title": "Hosted in Germany", "body": "Data centers in Frankfurt, ISO 27001-certified. DPA per GDPR Art. 28 ready to sign." },
+      { "iconKey": "chart", "title": "German-language support", "body": "Native German (and English) support Mon–Sat 07–20 by phone, chat and email. Average response under 4 minutes." },
+      { "iconKey": "clock", "title": "Offline-ready driver app", "body": "Orders, navigation and work-time tracking work without signal. Auto-syncs when reception returns." },
+      { "iconKey": "api", "title": "Open REST API", "body": "For your enterprise clients, your CRM and your booking form. Webhook events for every status change, documented and stable." }
+    ]
+  },
+  "comparison": {
+    "eyebrow": "Comparison",
+    "h2": "PTS vs. Excel, paper and whiteboard.",
+    "body": "Most fleets in Germany still dispatch with Excel, sticky notes or a whiteboard. Here's what changes with PTS.",
+    "header": { "task": "Task", "old": "Excel / Paper / Whiteboard", "pts": "PTS" },
+    "rows": [
+      { "task": "Assign a trip", "old": "Phone call, SMS or wall board · 3 – 5 min per trip", "pts": "Drag & drop · push notification · 10 s" },
+      { "task": "Spot a conflict", "old": "Often missed at dispatch time", "pts": "Warning appears the moment you assign" },
+      { "task": "Optimize a route", "old": "Dispatcher's gut feel · not measurable", "pts": "Live traffic & multi-stop · −18 % empty miles" },
+      { "task": "Prove work time", "old": "Excel sheet · not BAG-compliant · no audit trail", "pts": "One-tap start / stop · versioned · BAG-ready" },
+      { "task": "Month-end close", "old": "Manual invoices · CSV wrangling · 4 – 6 h", "pts": "Straight to DATEV / Lexoffice · under 10 min" },
+      { "task": "GDPR / data control", "old": "Excel on laptops · emails · unclear", "pts": "ISO 27001 hosting in Frankfurt · DPA included" }
+    ]
+  },
+  "testimonial": {
+    "quote": "Our monthly work-time tracking used to be three days of Excel wrangling. With PTS my team finishes in 20 minutes — approvals and DATEV export included. We save six hours a week just from that.",
+    "author": { "initials": "YA", "name": "Yassir Aman", "role": "Managing Director, 9PM GmbH" }
+  },
+  "faq": {
+    "eyebrow": "Questions & answers",
+    "h2": "The most common questions before switching.",
+    "items": [
+      { "q": "What does PTS cost per vehicle per month?", "a": "PTS starts at 39 € per vehicle per month on the Starter tier. Pro costs 69 € per vehicle per month and includes route optimization and DATEV export. Fleets of 25+ vehicles get individual Enterprise terms." },
+      { "q": "How long does onboarding take?", "a": "Typically under 5 business days. We migrate your master data (drivers, vehicles, customers) and train your team in two 90-minute sessions. Day five, you're live." },
+      { "q": "Is PTS GDPR-compliant? Is there a DPA?", "a": "Yes. PTS runs exclusively in German data centers (Frankfurt, ISO 27001). A data processing agreement per GDPR Art. 28 is ready to sign and comes with every contract." },
+      { "q": "Does the work-time tracking meet the BAG ruling of 13 Sep 2022?", "a": "Yes. PTS records start, end, breaks and duration per driver and per day. All changes are versioned and stored tamper-evidently. Records are BAG-ready and export as PDF." },
+      { "q": "What integrations exist?", "a": "PTS exports to DATEV payroll, Lexoffice, sevDesk and CSV. For taxi operators we integrate with Taxameter, TX-App and ISI-Fahrbetrieb. Client-side: SAP Concur, HRworks and an open REST API." },
+      { "q": "Does the driver app work offline?", "a": "Yes. The driver app stores orders and work-time offline and syncs automatically once signal returns. Supported on iOS and Android for the last three major versions." },
+      { "q": "What is the contract term?", "a": "Month-to-month. You pay per vehicle per month, no setup fee, no minimum term. Annual commitment gets a 15 % discount." },
+      { "q": "Is there a free trial?", "a": "Yes. 14 days free, all features, no payment details required. After the trial you decide whether to sign — or cancel in one click." }
+    ]
+  },
+  "demo": {
+    "eyebrow": "Book a demo",
+    "h2": "30 minutes. Your fleet. Live in PTS.",
+    "body": "We show you PTS with your actual workflows — not a generic demo. After the call you'll know whether PTS fits. No sales pressure."
+  },
+  "form": {
+    "labels": {
+      "name": "Name",
+      "firma": "Company",
+      "email": "Email",
+      "telefon": "Phone",
+      "fahrzeuge": "Number of vehicles",
+      "nachricht": "Brief on your needs (optional)"
+    },
+    "placeholders": {
+      "name": "First and last name",
+      "firma": "Company name",
+      "email": "name@company.com",
+      "telefon": "+49 …",
+      "nachricht": "Segment, current software, target start date …"
+    },
+    "select": "Please select",
+    "vehicleRanges": ["1 – 5", "6 – 20", "21 – 50", "More than 50"],
+    "submit": "Request demo",
+    "subject": "PTS demo request",
+    "disclaimer": "By submitting you accept our privacy notice. We'll reply within one business day."
+  }
+}
