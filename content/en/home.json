@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "PTS — Software for passenger transport: dispatch & work-time",
-    "description": "PTS is the software for passenger transport: plan routes, dispatch trips, track work time to German labor law. From 39 € per vehicle.",
+    "description": "PTS is the software for passenger transport: plan routes, dispatch trips, track work time to German labor law. From 3 € per vehicle.",
     "keywords": [
       "passenger transport software",
       "dispatch software",
@@ -19,10 +19,6 @@
     "sub": "PTS is the software for passenger transport. Plan routes, dispatch trips, track work time to German labor law — in one system, for chauffeur, taxi and medical transport fleets.",
     "ctas": { "primary": "Book a demo", "secondary": "Message on WhatsApp" },
     "meta": "{days}-day free trial · month-to-month · onboarding in under {onboard} business days"
-  },
-  "trustedBy": {
-    "label": "Trusted by fleets across Germany",
-    "companies": ["Bayern Chauffeur", "City Taxi München", "Rhein-Main Transfer", "Alpen Krankenfahrten", "Nord Limousinen", "Berlin Mietwagen 24"]
   },
   "features": [
     {
@@ -106,11 +102,11 @@
     "eyebrow": "Questions & answers",
     "h2": "The most common questions before switching.",
     "items": [
-      { "q": "What does PTS cost per vehicle per month?", "a": "PTS starts at 39 € per vehicle per month on the Starter tier. Pro costs 69 € per vehicle per month and includes route optimization and DATEV export. Fleets of 25+ vehicles get individual Enterprise terms." },
+      { "q": "What does PTS cost per vehicle per month?", "a": "PTS costs 3 € per vehicle per month on the Solo tier (time tracking or route planning — pick one module). The Kombi tier with both modules costs 5 € per vehicle per month." },
       { "q": "How long does onboarding take?", "a": "Typically under 5 business days. We migrate your master data (drivers, vehicles, customers) and train your team in two 90-minute sessions. Day five, you're live." },
       { "q": "Is PTS GDPR-compliant? Is there a DPA?", "a": "Yes. PTS runs exclusively in German data centers (Frankfurt, ISO 27001). A data processing agreement per GDPR Art. 28 is ready to sign and comes with every contract." },
       { "q": "Does the work-time tracking meet the BAG ruling of 13 Sep 2022?", "a": "Yes. PTS records start, end, breaks and duration per driver and per day. All changes are versioned and stored tamper-evidently. Records are BAG-ready and export as PDF." },
-      { "q": "What integrations exist?", "a": "PTS exports to DATEV payroll, Lexoffice, sevDesk and CSV. For taxi operators we integrate with Taxameter, TX-App and ISI-Fahrbetrieb. Client-side: SAP Concur, HRworks and an open REST API." },
+      { "q": "What integrations exist?", "a": "PTS exports to DATEV payroll, Lexoffice, sevDesk and CSV. For taxi operators we integrate with Taxameter, TX-App and ISI-Fahrbetrieb. An open REST API with webhooks is also available." },
       { "q": "Does the driver app work offline?", "a": "Yes. The driver app stores orders and work-time offline and syncs automatically once signal returns. Supported on iOS and Android for the last three major versions." },
       { "q": "What is the contract term?", "a": "Month-to-month. You pay per vehicle per month, no setup fee, no minimum term. Annual commitment gets a 15 % discount." },
       { "q": "Is there a free trial?", "a": "Yes. 14 days free, all features, no payment details required. After the trial you decide whether to sign — or cancel in one click." }

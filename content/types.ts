@@ -45,7 +45,6 @@ export type HomeContent = {
     ctas: CTAContent;
     meta: string;
   };
-  trustedBy: { label: string; companies: string[] };
   features: FeatureBlock[];
   stats: StatItem[];
   whyGrid: { eyebrow: string; h2: string; cards: WhyCard[] };
@@ -122,12 +121,6 @@ export type PreiseContent = {
   hero: { eyebrow: string; h1: string; sub: string };
   tiers: PricingTier[];
   note: string;
-  compare: {
-    eyebrow: string;
-    h2: string;
-    header: { funktion: string; starter: string; pro: string; enterprise: string };
-    rows: { label: string; starter: CompareCell; pro: CompareCell; enterprise: CompareCell }[];
-  };
   faq: { eyebrow: string; h2: string; items: FAQItem[] };
   cta: { eyebrow: string; h2: string; body: string; primary: string; secondary: string };
 };

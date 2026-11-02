@@ -82,9 +82,9 @@ export const softwareApplicationJsonLd = {
   offers: {
     '@type': 'AggregateOffer',
     priceCurrency: 'EUR',
-    lowPrice: '39',
-    highPrice: '69',
-    offerCount: 3,
+    lowPrice: '3',
+    highPrice: '5',
+    offerCount: 2,
     priceSpecification: {
       '@type': 'UnitPriceSpecification',
       priceCurrency: 'EUR',
@@ -113,7 +113,7 @@ export function productWithTiersJsonLd(
   tiers: { id: string; name: string; desc: string; priceValue?: number; ctaHref: string }[],
 ) {
   const base = lang === 'de' ? site.domain : `${site.domain}/en`;
-  const priceMap: Record<string, number> = { starter: 39, pro: 69 };
+  const priceMap: Record<string, number> = { solo: 3, kombi: 5 };
   return {
     '@context': 'https://schema.org',
     '@type': 'Product',

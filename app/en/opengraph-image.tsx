@@ -71,7 +71,7 @@ export default async function Image() {
               lineHeight: 1.4,
             }}
           >
-            For chauffeur, taxi and medical transport fleets. From 39 € per vehicle.
+            For chauffeur, taxi and medical transport fleets. From 3 € per vehicle.
           </div>
         </div>
         <div style={{ display: 'flex', gap: 32, fontSize: 16, color: '#7d8189', letterSpacing: '0.04em' }}>

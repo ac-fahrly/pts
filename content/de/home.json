@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "PTS — Personentransportsoftware für Disposition & Arbeitszeit",
-    "description": "PTS ist die Software für Personenbeförderung: Routen planen, Fahrten disponieren, Arbeitszeit gesetzeskonform erfassen. Ab 39 € pro Fahrzeug.",
+    "description": "PTS ist die Software für Personenbeförderung: Routen planen, Fahrten disponieren, Arbeitszeit gesetzeskonform erfassen. Ab 3 € pro Fahrzeug.",
     "keywords": [
       "Personentransportsoftware",
       "Dispositionssoftware",
@@ -20,10 +20,6 @@
     "sub": "PTS ist die Software für Personenbeförderung. Routen planen, Fahrten disponieren, Arbeitszeit gesetzeskonform erfassen — in einem System, für Mietwagen, Taxi und Krankentransport.",
     "ctas": { "primary": "Demo buchen", "secondary": "Auf WhatsApp schreiben" },
     "meta": "{days} Tage kostenlos · monatlich kündbar · Einführung in unter {onboard} Werktagen"
-  },
-  "trustedBy": {
-    "label": "Vertrauen von Fuhrparks in Deutschland",
-    "companies": ["Bayern Chauffeur", "City Taxi München", "Rhein-Main Transfer", "Alpen Krankenfahrten", "Nord Limousinen", "Berlin Mietwagen 24"]
   },
   "features": [
     {
@@ -107,11 +103,11 @@
     "eyebrow": "Fragen & Antworten",
     "h2": "Die häufigsten Fragen vor dem Wechsel.",
     "items": [
-      { "q": "Was kostet PTS pro Fahrzeug im Monat?", "a": "PTS startet bei 39 € pro Fahrzeug pro Monat im Starter-Tarif. Der Pro-Tarif kostet 69 € pro Fahrzeug pro Monat und enthält Routenoptimierung und DATEV-Export. Für Flotten ab 25 Fahrzeugen gibt es individuelle Enterprise-Konditionen." },
+      { "q": "Was kostet PTS pro Fahrzeug im Monat?", "a": "PTS kostet 3 € pro Fahrzeug pro Monat im Solo-Tarif (Zeiterfassung oder Routenplanung — ein Modul). Der Kombi-Tarif mit beiden Modulen kostet 5 € pro Fahrzeug pro Monat." },
       { "q": "Wie lange dauert die Einführung?", "a": "Die Einführung dauert typischerweise unter 5 Werktage. Wir migrieren Ihre Stammdaten (Fahrer, Fahrzeuge, Kunden) und schulen Ihr Team in zwei Sessions à 90 Minuten. Am fünften Tag sind Sie produktiv." },
       { "q": "Ist PTS DSGVO-konform? Gibt es einen AV-Vertrag?", "a": "Ja. PTS wird ausschließlich in deutschen Rechenzentren (Frankfurt, ISO 27001) betrieben. Ein Vertrag zur Auftragsverarbeitung nach DSGVO Art. 28 liegt unterschriftsreif vor und wird mit jedem Vertrag ausgehändigt." },
       { "q": "Erfüllt die Arbeitszeiterfassung das BAG-Urteil vom 13.09.2022?", "a": "Ja. PTS erfasst Beginn, Ende, Pausen und Dauer der Arbeitszeit fahrer- und tagesgenau. Alle Änderungen werden versioniert und revisionssicher protokolliert. Die Nachweise sind BAG-tauglich und lassen sich als PDF exportieren." },
-      { "q": "Welche Schnittstellen gibt es?", "a": "PTS exportiert nach DATEV Lohn und Gehalt, Lexoffice, sevDesk und als CSV. Für Taxi-Betriebe gibt es Schnittstellen zu Taxameter, TX-App und ISI-Fahrbetrieb. Kundenseitig sind SAP-Concur, HRworks und ein offenes REST-API angebunden." },
+      { "q": "Welche Schnittstellen gibt es?", "a": "PTS exportiert nach DATEV Lohn und Gehalt, Lexoffice, sevDesk und als CSV. Für Taxi-Betriebe gibt es Schnittstellen zu Taxameter, TX-App und ISI-Fahrbetrieb. Zusätzlich steht ein offenes REST-API mit Webhooks zur Verfügung." },
       { "q": "Läuft die Fahrer-App auch offline?", "a": "Ja. Die Fahrer-App speichert Aufträge und Zeiterfassung offline und synchronisiert automatisch, sobald wieder Netz verfügbar ist. Sie funktioniert auf iOS und Android ab den letzten drei Major-Versionen." },
       { "q": "Wie lange ist die Vertragslaufzeit?", "a": "Monatlich kündbar. Sie zahlen pro Fahrzeug pro Monat, ohne Setup-Gebühr und ohne Mindestlaufzeit. Wer sich für ein Jahresabo entscheidet, erhält 15 % Rabatt." },
       { "q": "Gibt es einen kostenlosen Test?", "a": "Ja. 14 Tage kostenlos, mit allen Funktionen, ohne Zahlungsangaben. Nach dem Test entscheiden Sie, ob Sie einen Vertrag abschließen — oder Sie kündigen mit einem Klick." }

@@ -21,8 +21,7 @@ export const site = {
     ceo: 'Adam Belamri',
   },
   pricing: {
-    starter: 39,
-    pro: 69,
-    enterprise: null as null | number,
+    solo: 3,
+    kombi: 5,
   },
 } as const;

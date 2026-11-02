@@ -71,7 +71,7 @@ export default async function Image() {
               lineHeight: 1.4,
             }}
           >
-            Für Mietwagen, Taxi und Krankentransport. Ab 39 € pro Fahrzeug.
+            Für Mietwagen, Taxi und Krankentransport. Ab 3 € pro Fahrzeug.
           </div>
         </div>
         <div style={{ display: 'flex', gap: 32, fontSize: 16, color: '#7d8189', letterSpacing: '0.04em' }}>

@@ -78,18 +78,6 @@ export function HomePage({
         </div>
       </section>
 
-      {/* TRUSTED BY */}
-      <section className="section-tight">
-        <div className="container">
-          <div className="logos-label">{c.trustedBy.label}</div>
-          <div className="logos">
-            {c.trustedBy.companies.map((co) => (
-              <span key={co} className="logo-item">{co}</span>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* FEATURES */}
       {c.features.map((f, i) => (
         <section

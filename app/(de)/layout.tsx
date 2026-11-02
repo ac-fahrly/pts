@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     template: '%s | PTS',
   },
   description:
-    'PTS ist die Software für Personenbeförderung: Routen planen, Fahrten disponieren, Arbeitszeit gesetzeskonform erfassen. Ab 39 € pro Fahrzeug.',
+    'PTS ist die Software für Personenbeförderung: Routen planen, Fahrten disponieren, Arbeitszeit gesetzeskonform erfassen. Ab 3 € pro Fahrzeug.',
   openGraph: {
     type: 'website',
     locale: 'de_DE',

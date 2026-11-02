@@ -1,14 +1,8 @@
 import Link from 'next/link';
-import type { Lang, PreiseContent, CompareCell } from '@/content/types';
+import type { Lang, PreiseContent } from '@/content/types';
 import { JsonLd, breadcrumbJsonLd, faqJsonLd, productWithTiersJsonLd, webPageJsonLd } from '@/lib/seo';
 import { site } from '@/lib/config';
 import { tpl } from '@/lib/i18n';
-
-function cell(v: CompareCell) {
-  if (v === true) return <span className="check" aria-label="ja" />;
-  if (v === false) return <span className="dash">—</span>;
-  return v;
-}
 
 export function PreisePage({ lang, c }: { lang: Lang; c: PreiseContent }) {
   const base = lang === 'de' ? site.domain : `${site.domain}/en`;
@@ -59,36 +53,7 @@ export function PreisePage({ lang, c }: { lang: Lang; c: PreiseContent }) {
               </div>
             ))}
           </div>
-          <p style={{ textAlign: 'left', marginTop: 24, color: 'var(--text-lo)', fontSize: 13 }}>{c.note}</p>
-        </div>
-      </section>
-
-      <section className="section">
-        <div className="container">
-          <span className="eyebrow">{c.compare.eyebrow}</span>
-          <h2 className="text-balance">{c.compare.h2}</h2>
-          <div className="table-scroll">
-            <table className="price-compare">
-              <thead>
-                <tr>
-                  <th style={{ width: '40%' }}>{c.compare.header.funktion}</th>
-                  <th style={{ textAlign: 'center' }}>{c.compare.header.starter}</th>
-                  <th style={{ textAlign: 'center' }}>{c.compare.header.pro}</th>
-                  <th style={{ textAlign: 'center' }}>{c.compare.header.enterprise}</th>
-                </tr>
-              </thead>
-              <tbody>
-                {c.compare.rows.map((r) => (
-                  <tr key={r.label}>
-                    <td style={{ color: 'var(--text-hi)' }}>{r.label}</td>
-                    <td className="center num" style={{ textAlign: 'center' }}>{cell(r.starter)}</td>
-                    <td className="center num" style={{ textAlign: 'center' }}>{cell(r.pro)}</td>
-                    <td className="center num" style={{ textAlign: 'center' }}>{cell(r.enterprise)}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+          <p className="price-note">{c.note}</p>
         </div>
       </section>
 

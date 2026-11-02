@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     template: '%s | PTS',
   },
   description:
-    'PTS is the software for passenger transport: plan routes, dispatch trips, track work time to German labor law. From 39 € per vehicle.',
+    'PTS is the software for passenger transport: plan routes, dispatch trips, track work time to German labor law. From 3 € per vehicle.',
   openGraph: {
     type: 'website',
     locale: 'en_GB',

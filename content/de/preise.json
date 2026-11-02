@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Preise — ab 39 € pro Fahrzeug pro Monat",
-    "description": "PTS-Preise pro Fahrzeug pro Monat: Starter ab 39 €, Pro 69 €, Enterprise auf Anfrage. Monatlich kündbar, 14 Tage kostenlos testen. Keine Setup-Gebühr."
+    "title": "Preise — ab 3 € pro Fahrzeug pro Monat",
+    "description": "PTS-Preise pro Fahrzeug pro Monat: Solo 3 € (Zeiterfassung oder Routenplanung), Kombi 5 € (beides). Monatlich kündbar, 14 Tage kostenlos testen. Keine Setup-Gebühr."
   },
   "hero": {
     "eyebrow": "Preise",
@@ -10,15 +10,14 @@
   },
   "tiers": [
     {
-      "id": "starter",
-      "name": "Starter",
-      "desc": "Für Fuhrparks bis 5 Fahrzeuge, die von Excel wechseln.",
-      "price": "39 €",
+      "id": "solo",
+      "name": "Solo",
+      "desc": "Zeiterfassung oder Routenplanung — ein Modul Ihrer Wahl.",
+      "price": "3 €",
       "per": "/ Fahrzeug / Monat",
       "bullets": [
-        "Disposition & Board",
+        "Zeiterfassung oder Routenplanung (eins wählen)",
         "Fahrer-App (iOS, Android)",
-        "Arbeitszeiterfassung, BAG-konform",
         "CSV-Export für DATEV und Lexoffice",
         "E-Mail-Support DE, Mo–Fr 09–18"
       ],
@@ -26,15 +25,15 @@
       "ctaHref": "/#demo"
     },
     {
-      "id": "pro",
-      "name": "Pro",
-      "desc": "Für wachsende Flotten mit 6 – 25 Fahrzeugen.",
-      "price": "69 €",
+      "id": "kombi",
+      "name": "Kombi",
+      "desc": "Zeiterfassung und Routenplanung zusammen.",
+      "price": "5 €",
       "per": "/ Fahrzeug / Monat",
       "bullets": [
-        "Alles aus Starter",
+        "Zeiterfassung + Routenplanung",
+        "Arbeitszeiterfassung, BAG-konform",
         "Multi-Stop-Routenoptimierung + Live-Verkehr",
-        "Direkt-Schnittstelle DATEV, Lexoffice, HRworks",
         "Kundenportal für Firmenkunden",
         "Telefon-Support DE, Mo–Sa 07–20"
       ],
@@ -42,49 +41,15 @@
       "featured": true,
       "ctaLabel": "Demo buchen",
       "ctaHref": "/#demo"
-    },
-    {
-      "id": "enterprise",
-      "name": "Enterprise",
-      "desc": "Ab 25 Fahrzeugen. Individuell verhandelt.",
-      "price": "Auf Anfrage",
-      "per": "",
-      "bullets": [
-        "Alles aus Pro",
-        "SLA, dedizierter Ansprechpartner",
-        "SSO (SAML, OIDC)",
-        "Individuelle Integrationen & REST-API",
-        "Onboarding-Projekt inkl. Datenmigration"
-      ],
-      "ctaLabel": "Demo buchen",
-      "ctaHref": "/#demo"
     }
   ],
   "note": "Alle Preise pro Fahrzeug und Monat, zzgl. USt. 15 % Rabatt bei Jahresabschluss.",
-  "compare": {
-    "eyebrow": "Details",
-    "h2": "Vergleich der Tarife.",
-    "header": { "funktion": "Funktion", "starter": "Starter", "pro": "Pro", "enterprise": "Enterprise" },
-    "rows": [
-      { "label": "Dispositionsboard",                 "starter": true,     "pro": true,        "enterprise": true },
-      { "label": "Fahrer-App (iOS, Android)",         "starter": true,     "pro": true,        "enterprise": true },
-      { "label": "Arbeitszeiterfassung, BAG-konform", "starter": true,     "pro": true,        "enterprise": true },
-      { "label": "Multi-Stop-Routenoptimierung",      "starter": false,    "pro": true,        "enterprise": true },
-      { "label": "Live-Verkehr (HERE)",               "starter": false,    "pro": true,        "enterprise": true },
-      { "label": "DATEV-Direktanbindung",             "starter": "CSV",    "pro": true,        "enterprise": true },
-      { "label": "Kundenportal Firmenkunden",         "starter": false,    "pro": true,        "enterprise": true },
-      { "label": "REST-API + Webhooks",               "starter": false,    "pro": "read-only", "enterprise": true },
-      { "label": "Single Sign-On (SAML, OIDC)",       "starter": false,    "pro": false,       "enterprise": true },
-      { "label": "Support-Kanal",                     "starter": "E-Mail", "pro": "Telefon",   "enterprise": "Dediziert" },
-      { "label": "Antwortzeit (SLA)",                 "starter": "24 h",   "pro": "4 h",       "enterprise": "1 h" }
-    ]
-  },
   "faq": {
     "eyebrow": "Fragen zu Preisen",
     "h2": "Klarheit vor Vertrag.",
     "items": [
       { "q": "Zahle ich pro Fahrzeug oder pro Fahrer?", "a": "Pro Fahrzeug. Ein Fahrzeug kann von beliebig vielen Fahrern genutzt werden, die Zahl der Nutzer ist nicht limitiert." },
-      { "q": "Gibt es eine Setup-Gebühr?", "a": "Nein. Die Einführung inklusive Datenmigration und Schulung ist im Starter- und Pro-Tarif enthalten. Bei Enterprise-Kunden ab 25 Fahrzeugen vereinbaren wir Onboarding-Projekt individuell." },
+      { "q": "Gibt es eine Setup-Gebühr?", "a": "Nein. Die Einführung inklusive Datenmigration und Schulung ist in beiden Tarifen enthalten." },
       { "q": "Wie lange läuft der Vertrag?", "a": "Monatlich kündbar. Bei Jahresabschluss erhalten Sie 15 % Rabatt und können jederzeit auf Monatszahlung zurückwechseln." },
       { "q": "Was passiert nach dem 14-tägigen Test?", "a": "Nichts automatisch. Sie erhalten ein Angebot per Mail. Wenn Sie nicht buchen, laufen Ihre Daten aus und werden nach 30 Tagen gelöscht." }
     ]
